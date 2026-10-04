@@ -119,7 +119,7 @@ This project demonstrates a complete CI/CD pipeline for a FastAPI application, s
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/qqqqqwwerty/ci-cd-pipeline.git
+git clone https://github.com/juw3x/ci-cd-pipeline.git
 cd ci-cd-pipeline
 ```
 
