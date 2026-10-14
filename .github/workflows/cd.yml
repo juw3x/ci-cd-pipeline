@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    # Skip if Docker Hub secrets are not configured
+    if: github.event_name == 'workflow_dispatch' || (secrets.DOCKER_USERNAME != '' && secrets.DOCKER_PASSWORD != '')
     steps:
       - uses: actions/checkout@v4
 
